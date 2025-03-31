@@ -3,12 +3,12 @@ body {
     margin: 0;
     padding: 0;
     text-align: center;
-    background-color:  rgb(27, 26, 26);
+    background-color:  rgb(255, 254, 254);
 }
 .container {
     width: 80%;
     margin: 50px auto;
-    background: black;
+    background: #bccad6;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
@@ -16,23 +16,19 @@ body {
 img {
     height: 400px;
     width: 400px;
+    border-radius: 50%;
+    margin-right: 20px;
 }
 
 h1 {
-    color: whitesmoke;
+    color: black;
 }
 p {
-    color: whitesmoke;
+    color: black;
 }
-.social a {
-    display: inline-block;
-    margin: 10px;
-    text-decoration: none;
-    color: #4500e6;
-    font-weight: bold;
-}
+
 nav {
-    background: #4500e6;
+    background: #667292;
     padding: 10px;
 }
 nav a {

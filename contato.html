@@ -6,7 +6,7 @@
     <title>Contato</title>
     <style>
 nav {
-    background: #4500e6;
+    background: #667292;
     padding: 10px;
 }
 
@@ -22,18 +22,28 @@ body {
     margin: 0;
     padding: 0;
     text-align: center;
-    background-color:rgb(27, 26, 26);
+    background-color: white;
 }
+
 .social a {
     display: inline-block;
     margin: 10px;
     text-decoration: none;
-    color: #4500e6;
+    color: #667292;
     font-weight: bold;
 }
 
+.formulario {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #f1e3dd;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
 .texto {
-    color: whitesmoke;
+    color: black;
 }
     </style>
 </head>
@@ -46,11 +56,20 @@ body {
         <a href="contato.html">Contato</a>
     </nav>
 
-    <h1 class="texto">Email para contato: </h1>
-    <a href="mailto:jpedromachado5@gmail.com">jpedromachado5@gmail.com</a>
-    <hr>
-    <h1 class="texto">Telefone para contato: +5521997243949</h1>
-    <a href="tel:+5521997243949">+5521997243949</a>
+    <h1 class="texto">Entre em contato</h1>
+    
+    <div class="formulario">
+        <form action="mailto:jpedromachado5@gmail.com" method="POST">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+
     <hr>
     <h1 class="texto">Redes Sociais</h1>
     <div class="social">
